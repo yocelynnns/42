@@ -12,7 +12,7 @@ int     ft_ultimate_range(int **range, int min, int max)
         return (0);
     }
     tab = (int *)malloc(sizeof(int) * (max - min));
-    if (tab == NULL)
+    if (!(tab))
     {
         return (-1);
     }
