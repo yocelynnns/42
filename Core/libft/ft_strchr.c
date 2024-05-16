@@ -3,7 +3,7 @@
 char	*ft_strchr(const char *s, int c)
 {
 	char	*temp;
-	int		i;
+	size_t		i;
 
 	temp = (char*)s;
 	i = 0;
